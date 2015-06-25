@@ -19,7 +19,7 @@ EdubookGame.Preloader.prototype = {
         /*
          * Map resources
          */
-        this.load.tilemap('level1', 'assets/maps/edubook1.json', null, Phaser.Tilemap.TILED_JSON);
+        this.load.tilemap('level1', 'assets/maps/level1.json', null, Phaser.Tilemap.TILED_JSON);
         this.load.image('tileset', 'assets/tilesets/edubook.png');
 
         /*
